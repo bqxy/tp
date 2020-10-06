@@ -1,4 +1,4 @@
-package seedu.financeit.utils;
+package utils;
 
 public class Constants {
     public static final String[] DEFAULT_EXP_CAT = {"TRANSPORT", "FOOD", "TRAVEL", "SHOPPING", "BILLS"};
@@ -10,8 +10,5 @@ public class Constants {
         EXP,
         INC
     }
-
-    // Regex detects the following: <whitespace>/<word><whitespace>
-    public static final String paramRegex = String.format("(\\s+)([%s]{1})(\\w+)(\\s+)",
-            String.join("", DEFAULT_PARAMS_PREFIX));
+    public static final String paramRegex = String.format("(\\s+)([%s]{1})(\\w+)", String.join("", DEFAULT_PARAMS_PREFIX));
 }

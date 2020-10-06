@@ -1,4 +1,4 @@
-package seedu.financeit;
+package seedu.duke;
 
 import java.util.Scanner;
 
